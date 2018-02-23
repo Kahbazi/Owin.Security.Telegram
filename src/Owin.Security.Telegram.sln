@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Security.Telegram", "Owin.Security.Telegram\Owin.Security.Telegram.csproj", "{D71224D3-4373-4224-8F64-551BF65DD911}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{275D37FE-232B-4253-9E9F-3F0084F5476F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Security.Telegram.Sample", "Owin.Security.Telegram.Sample\Owin.Security.Telegram.Sample.csproj", "{3229640F-4A30-4576-82FD-8E7A4E3788A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D71224D3-4373-4224-8F64-551BF65DD911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71224D3-4373-4224-8F64-551BF65DD911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71224D3-4373-4224-8F64-551BF65DD911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71224D3-4373-4224-8F64-551BF65DD911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3229640F-4A30-4576-82FD-8E7A4E3788A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3229640F-4A30-4576-82FD-8E7A4E3788A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3229640F-4A30-4576-82FD-8E7A4E3788A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3229640F-4A30-4576-82FD-8E7A4E3788A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3229640F-4A30-4576-82FD-8E7A4E3788A2} = {275D37FE-232B-4253-9E9F-3F0084F5476F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E5F4818-C284-47F8-9DFA-AEDA9F3E36A6}
+	EndGlobalSection
+EndGlobal
